@@ -7,9 +7,9 @@ function Recipes(){
     const { data, loading, error } = useRecipes('/recipes');
     if (loading) return <p>Loading...</p>;
     if (error) return <p>{error}</p>;
-    console.log(data.recipes)
-    console.log(loading)
-    console.log(error)
+    // console.log(data.recipes)
+    // console.log(loading)
+    // console.log(error)
     return (
             <>
                 <h2 id="featured_pdts">Recipe Collection</h2>

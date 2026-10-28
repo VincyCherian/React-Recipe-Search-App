@@ -43,7 +43,7 @@ function RecipeCard({id,name, ingredients, prepTimeMinutes, cookTimeMinutes,diff
                 
                 <div className="card-body">
                     {/* <h5 className="card-title">{name.substring(0,14)+"..."}</h5> */}
-                     <h5 className="card-title">{name} &nbsp;
+                     <h5 className="card-title">{name.substring(0,18)+"..."} &nbsp;
                                          { fList===0?
                     (
                        isAdded?

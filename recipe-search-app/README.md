@@ -11,7 +11,6 @@ Technologies Used
 - Axios
 - Bootstrap / Bootstrap Icons (if included in the project)
 - DummyJSON Recipes API
-
 API Endpoints
 - All recipes: https://dummyjson.com/recipes
 - Search recipes: https://dummyjson.com/recipes/search?q=pizza

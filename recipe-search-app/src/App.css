@@ -15,7 +15,7 @@ body{
 /* NavBar */
 
 #recipe-navbar{
-    background-color :cornsilk;
+    background-color : rgb(238, 181, 140);
     position: sticky;
     top:0;
     z-index: 100;

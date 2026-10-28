@@ -35,9 +35,9 @@ function useRecipes(url)
         return () => { cancelled = true; }; // cleanup on unmount
     }, [url]); 
 
-    console.log(data)
-    console.log(loading)
-    console.log(error)
+    // console.log(data)
+    // console.log(loading)
+    // console.log(error)
     return { data, loading, error };
 }
 
