@@ -1,4 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
+import fb from "../assets/fb-icon-1.png"
+import insta from "../assets/insta-icon-2.jpg"
+import youtube from "../assets/youtube-icon.png"
 
 function Footer(){
     return(
@@ -39,9 +42,9 @@ function Footer(){
                          <div className="col-12 col-lg-2 col-md-12" style={{ paddingBottom : 10 + 'px'}}>
                             <h5 id="social-heading">Follow Us</h5>
                             <div className="social-section">
-                                <a href=""><img src="../src/assets/fb-icon-1.png" alt="Facebook" width="30px" height="30px" border-radius="5px" /></a>
-                                <a href=""><img src="../src/assets/insta-icon-2.jpg" alt="Instagram"width="30px" height="30px" /></a>
-                                <a href=""><img src="../src/assets/youtube-icon.png" alt="Youtube" width="30px" height="30px" /></a>
+                                <a href=""><img src={fb} alt="Facebook" width="30px" height="30px" border-radius="5px" /></a>
+                                <a href=""><img src={insta} alt="Instagram"width="30px" height="30px" /></a>
+                                <a href=""><img src={youtube} alt="Youtube" width="30px" height="30px" /></a>
                             </div> 
                     </div>
                 </div>

@@ -1,8 +1,10 @@
+import banner from "../assets/HeroBanner.png"
+
 function Home(){
     return(
         <>
          <div className="hero">
-            <img src="../src/assets/HeroBanner.png" alt="Hero Image of Recipe Hub" width="100% vh"/>
+            <img src={banner} alt="Hero Image of Recipe Hub" width="100% vh"/>
         </div>
 
         <h3 className="main-head">Welcome to RecipeHub</h3> 
